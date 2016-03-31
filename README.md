@@ -1,5 +1,5 @@
 
-# About Swalpa
+## About Swalpa
 
     'Swalpa' (स्वल्प in संस्क्रुत) means small/short.
 
@@ -44,7 +44,7 @@ navbar {
 
 Swalpa was my attempt at writing such a parser that would parse these shorthand notations and blow them back into navbar HTML, which bootstrap understands. 
 
-But... and there comes the but. It was pretty nieve of me to use 'regular'-expressions as basic building blocks for parsing shorthand to a context free language like HTML. Sooner or later, pumping-lemma would bite me ... and bite it did. I knew I had hit the wall. Pumping lemma was a revealation. Swalpa was a pretty ambitious, though nieve, approach at parsing text, without knowing the underlying language theory. 
+But... and there comes the but. It was pretty naive of me to use 'regular'-expressions as basic building blocks for parsing shorthand to a context free language like HTML. Sooner or later, pumping-lemma would bite me ... and bite it did. I knew I had hit the wall. Pumping lemma was a revealation. Swalpa was a pretty ambitious, though naive, approach at parsing text, without knowing the underlying language theory. 
 
 .... and then I found out about [Emmet](http://emmet.io/). The whole purpose of writing this parser was gone. 
 
@@ -53,12 +53,12 @@ I wound down Swalpa, and it remained in the closet, like many other things, till
 A fun fact in the code. I was a c++/oop fan. With OOP/OOAD, I stil remain a fan; c++ not so much so. So I wrote a lot of code to 'emulate' guaranteed overrides and virtuals ala c++ in python. I hadn't discovered ABCs in python back then, and the thought process that's needed to map the design patterns from static to dynamic world had not yet begun. 
 
 
-# What's In
+## What's In
 
 All the source code. All of it (there isn't much, to be honest). As is. No guarantees. 
 In fact, if your system goes in flame because you ran Swalpa on it, I will be the one sueing you for using Swalpa for violence. 
 
 
-# Current Status 
+## Current Status 
 
 Wound down. Dead. In the museum. Amusement park. In extract-the-good-parts-before-you-throw-it-in-the-bin state.
