@@ -1,7 +1,7 @@
 
 # About Swalpa
 
-    `'Swalpa' (स्वल्प in संस्क्रुत) means small/short.`
+    'Swalpa' (स्वल्प in संस्क्रुत) means small/short.
 
 This was 2-3 years back. I wanted to build a blogging website (for my own use). Twitter's bootstrap was something that had wowed me with its simplicity. But hand-coding any HTML disgusts me. 'Angular bracket languages are for machines not humans', I would tell myself before widing things down even before they began. 
 
