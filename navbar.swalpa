@@ -1,0 +1,30 @@
+navbar {
+	header {
+		branding ["http://the.link.com/"] { 
+			"Site\"Builder\"Mde"; 
+			img [images/brand.png] 
+		}
+		toggle (pull-left) [navbar-example1-collapse] { }
+		toggle (pull-right) [navbar-example2-collapse] { }
+	}
+	menu (navbar-example1-collapse) {
+		link(#placeholder classes)[http://the.link.com/] { 
+			"Placeholder"; 
+			img [http://placehold.it/75x15] 
+		}
+		divider;
+		link(#somelink classes) [http://the.link.com/somelink] {"Some Link"}
+		divider;
+		form (navbar-left) [role: "search"] [type: form] {
+			textbox(#id form-control) [placeholder: "Search String"];
+			submit_button {"Submit"}
+		}
+	}
+	menu (navbar-right navbar-example2-collapse) ["File"] {
+		branding ["http://the.link.com/"] { "Illplaced Branding" }
+		link(#file.new classes) [file/new] { "New"}
+		link(#file.open classes) [file/open] { "Open"}		
+		link(#file.save some content antherclass) [file/save] { "Save"}
+	}
+	menuitem [http://some.link.com] { "SomeLink" } 
+}
